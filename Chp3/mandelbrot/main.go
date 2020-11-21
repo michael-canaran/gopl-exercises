@@ -4,6 +4,7 @@ import (
 	"image"
 	"image/color"
 	"image/png"
+	"log"
 	"math/cmplx"
 	"os"
 )
@@ -23,7 +24,13 @@ func main() {
 			img.Set(px, py, mandelbrot(z))
 		}
 	}
-	png.Encode(os.Stdout, img)
+
+	f, err := os.Create("mandelbrot.png")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	png.Encode(f, img)
 }
 
 func mandelbrot(z complex128) color.Color {

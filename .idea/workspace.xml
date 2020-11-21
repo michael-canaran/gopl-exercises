@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5815091f-1f81-4393-8f2f-83866914dec8" name="Default Changelist" comment="Initial commit.">
+    <list default="true" id="5815091f-1f81-4393-8f2f-83866914dec8" name="Default Changelist" comment="Mandelbrot exercise.">
+      <change afterPath="$PROJECT_DIR$/Chp3/mandelbrot/mandelbrot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chp3/plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chp3/surface.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chp3/surface/surface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chp3/mandelbrot/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chp3/mandelbrot/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,13 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,15 +93,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Mandelbrot exercise." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mandelbrot exercise." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="752" y="178" key="#GOPATH" timestamp="1605854973878">
+    <state x="752" y="178" key="#GOPATH" timestamp="1605891400373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="178" key="#GOPATH/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605854973878" />
+    <state x="752" y="178" key="#GOPATH/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605891400373" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605855184552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,25 +122,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605855417422" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1605856358610">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1605901875174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605856358610" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1605856358610">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605901875174" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1605901875174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605856358610" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1605856358610">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605901875174" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1605901875174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605856358610" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1605856358610">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605901875174" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1605901875174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605856358610" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605855163722">
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605901875174" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605891664340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605855163722" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605891664340" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605856661889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605856661889" />
   </component>
 </project>
